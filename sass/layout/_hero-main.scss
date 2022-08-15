@@ -1,0 +1,23 @@
+
+.section-hero {
+    background: #2f303a;
+    text-align: center;
+    display: column;
+    padding-top: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/hero/bcg.jpg);
+    background-size: cover;
+    background-color: rgba(196, 196, 196, 1);
+  }
+  
+  .hero {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    align-items: center;
+  }
+  
+  
