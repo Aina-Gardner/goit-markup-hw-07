@@ -22,9 +22,10 @@
 }
 
 .contact-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font (14px, 500, 16px);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   margin-right: 30px;
@@ -44,9 +45,10 @@
 }
 
 .contact-phone {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font (14px, 500, 16px);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 
@@ -73,7 +75,7 @@
   margin-right: 93px;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 

@@ -1,7 +1,8 @@
 .address {
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font (14px, 400, 24px);
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 9px;
@@ -16,8 +17,9 @@
 }
 
 .footer-mail {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font (14px, 400, 24px);
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
@@ -32,8 +34,9 @@
 }
 
 .footer-phone {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font (14px, 400, 24px);
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
@@ -77,9 +80,10 @@
 }
 
 .join-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
+  @include font (14px, 700, 15pxpx);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -140,8 +144,9 @@
   padding-left: 16px;
   margin-right: 12px;
   font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 1.14;
+  @include font (14px, 400, 16px);
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -152,9 +157,10 @@
 
 .footer-form-title {
   font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font (14px, 700, 16px);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -167,9 +173,10 @@
   align-items: center;
   width: 200px;
   height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font (16px, 700, 30px);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.88;
   color: #ffffff;
   letter-spacing: 0.06em;
   border: 1px solid rgba(33, 150, 243, 1);

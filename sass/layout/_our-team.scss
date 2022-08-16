@@ -9,18 +9,20 @@
 }
 
 .our-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font (36px, 700, 42px);
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
 }
 
 .team-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font (16px, 500, 19px);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-align: center;
@@ -28,6 +30,7 @@
 }
 
 .team-subtitle {
+  @include font (16px, 400, 19px);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;

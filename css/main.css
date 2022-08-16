@@ -55,9 +55,9 @@ button {
   text-decoration: none;
   color: var(--accent-color);
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  font-weight: 700;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
 }
 
@@ -92,9 +92,9 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.89;
+  font-weight: 700;
+  line-height: 1.875;
   color: #ffffff;
   letter-spacing: 0.06em;
   margin-top: 30px;
@@ -108,23 +108,23 @@ body {
   background-color: #188ce8;
 }
 
-.menu-link {
+.menu__link {
   position: relative;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: var(--primary-font);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link .current:hover::after {
+.menu__link .current:hover::after {
   background-color: #2196f3;
 }
-.menu-link .current {
+.menu__link .current {
   background-color: #2196f3;
 }
-.menu-link:hover, .menu-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
@@ -195,9 +195,10 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-  font-family: "Roboto";
   font-size: 16px;
-  line-height: 1.14;
+  font-weight: 400;
+  line-height: 1.125;
+  font-family: "Roboto";
   letter-spacing: 0.01em;
   color: #000000;
   transition: border-color var(--transition-dur-and-func);
@@ -235,8 +236,8 @@ body {
 
 .modal-form-title {
   font-family: "Roboto";
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
@@ -303,9 +304,9 @@ body {
   align-self: center;
   width: 200px;
   height: 50px;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 1.875;
   color: #ffffff;
   letter-spacing: 0.06em;
   margin-bottom: 40px;
@@ -435,16 +436,17 @@ body {
 }
 
 .benefits-title {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits-subtitle {
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
@@ -471,9 +473,9 @@ body {
 }
 
 .about-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  font-weight: 700;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
@@ -617,7 +619,8 @@ body {
 .address {
   text-decoration: none;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 9px;
@@ -631,7 +634,8 @@ body {
 
 .footer-mail {
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;

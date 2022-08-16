@@ -3,9 +3,10 @@
   height: 50px;
   left: 700px;
   top: 430px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.89;
+  @include font (16px, 700, 30px);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.89;
   color: #ffffff;
   letter-spacing: 0.06em;
   margin-top: 30px;

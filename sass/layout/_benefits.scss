@@ -1,14 +1,16 @@
 .benefits-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font (14px, 700, 16px);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .benefits-subtitle {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font (14px, 400, 24px);
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
