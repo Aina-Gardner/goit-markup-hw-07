@@ -449,6 +449,7 @@ body {
 .about-item {
   flex-basis: calc((100% - 60px) / 3);
 }
+
 .our-team {
   background: #f5f4fa;
   padding-bottom: 94px;
