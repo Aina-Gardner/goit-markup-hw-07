@@ -1,4 +1,4 @@
-.section-hero {
+.section__hero {
   background: #2f303a;
   text-align: center;
   display: column;
@@ -9,7 +9,7 @@
   background-color: rgba(196, 196, 196, 1);
 }
 
-.hero {
+.section__hero {
   color: #ffffff;
   @include font (44px, 900, 60px);
   // font-weight: 900;

@@ -1,4 +1,4 @@
-.benefits-title {
+.benefits__title {
   @include font (14px, 700, 16px);
   // font-weight: 700;
   // font-size: 14px;
@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
   @include font (14px, 400, 24px);
   // font-size: 14px;
   // line-height: 1.71;
@@ -16,13 +16,13 @@
   margin-top: 10px;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   padding-top: 0px;
   gap: 30px;
 }
 
-.benefits-box {
+.benefits__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +32,6 @@
   background-color: #f5f4fa;
 }
 
-.benefits-item {
+.benefits__item {
   flex-basis: calc((100% - 60px) / 3);
 }

@@ -57,7 +57,7 @@ button {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.1923076923;
+  line-height: 31px;
   letter-spacing: 0.03em;
 }
 
@@ -94,7 +94,7 @@ body {
   top: 430px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.875;
+  line-height: 30px;
   color: #ffffff;
   letter-spacing: 0.06em;
   margin-top: 30px;
@@ -112,7 +112,7 @@ body {
   position: relative;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.1428571429;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-font);
   transition-duration: 250ms;
@@ -197,7 +197,7 @@ body {
   padding-left: 42px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.125;
+  line-height: 18px;
   font-family: "Roboto";
   letter-spacing: 0.01em;
   color: #000000;
@@ -238,7 +238,7 @@ body {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -306,7 +306,7 @@ body {
   height: 50px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.875;
+  line-height: 30px;
   color: #ffffff;
   letter-spacing: 0.06em;
   margin-bottom: 40px;
@@ -353,38 +353,38 @@ body {
   margin-bottom: 25px;
 }
 
-.contact-mail {
-  font-weight: 500;
+.contact__item__mail {
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
   margin-right: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-mail:hover, .contact-mail:focus {
+.contact__item__mail:hover, .contact__item__mail:focus {
   color: var(--accent-color);
 }
 
-.icon-mail {
+.contact__item__mail__icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
 }
 
-.contact-phone {
-  font-weight: 500;
+.contact__item__phone {
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contact-phone:hover, .contact-phone:focus, .contact-phone:active {
+.contact__item__phone:hover, .contact__item__phone:focus, .contact__item__phone:active {
   color: var(--accent-color);
 }
 
-.icon-phone {
+.contact__item__phone__icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
@@ -400,11 +400,11 @@ body {
   margin-right: 93px;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-list {
+.contacts__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -415,7 +415,7 @@ body {
   padding-bottom: 32px;
 }
 
-.section-hero {
+.section__hero {
   background: #2f303a;
   text-align: center;
   display: column;
@@ -425,40 +425,40 @@ body {
   background-color: rgb(196, 196, 196);
 }
 
-.hero {
+.section__hero {
   color: #ffffff;
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
+  line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   align-items: center;
 }
 
-.benefits-title {
+.benefits__title {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.1428571429;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.7142857143;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   padding-top: 0px;
   gap: 30px;
 }
 
-.benefits-box {
+.benefits__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -468,31 +468,55 @@ body {
   background-color: #f5f4fa;
 }
 
-.benefits-item {
+.benefits__item {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.about-title {
+.about__title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1666666667;
+  line-height: 42px;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.about-list {
+.about__list {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 94px;
   gap: 30px;
 }
 
-.about-item {
+.about__item {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.our-team {
+.about__wrapper {
+  position: relative;
+}
+
+.about__title-wrapper {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  right: 0;
+  bottom: 0;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.our__team {
   background: #f5f4fa;
   padding-bottom: 94px;
 }
@@ -501,19 +525,19 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.our-team-title {
-  font-weight: 700;
+.our__team-title {
   font-size: 36px;
-  line-height: 1.17;
+  font-weight: 700;
+  line-height: 42px;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
 }
 
 .team-title {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  font-weight: 500;
+  line-height: 19px;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-align: center;
@@ -521,6 +545,9 @@ body {
 }
 
 .team-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -581,7 +608,7 @@ body {
   gap: 30px;
 }
 
-.clients-item-link {
+.clients__item-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -593,7 +620,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-item-link:hover, .clients-item-link:focus {
+.clients__item-link:hover, .clients__item-link:focus {
   border-color: #2196f3;
 }
 
@@ -607,7 +634,7 @@ body {
   background-color: #ffffff;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-item-link:hover .client-list-icon, .clients-item-link:focus .client-list-icon {
+.clients__item-link:hover .client-list-icon, .clients__item-link:focus .client-list-icon {
   border-color: #2196f3;
   fill: #2196f3;
 }
@@ -620,7 +647,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.7142857143;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 9px;
@@ -635,7 +662,7 @@ body {
 .footer-mail {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.7142857143;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
@@ -648,7 +675,8 @@ body {
 
 .footer-phone {
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
@@ -689,9 +717,9 @@ body {
 }
 
 .join-title {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  font-weight: 700;
+  line-height: 15px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -751,7 +779,8 @@ body {
   margin-right: 12px;
   font-family: "Roboto";
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 400;
+  line-height: 16px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -762,9 +791,9 @@ body {
 
 .footer-form-title {
   font-family: "Roboto";
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -777,9 +806,9 @@ body {
   align-items: center;
   width: 200px;
   height: 50px;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 700;
+  line-height: 30px;
   color: #ffffff;
   letter-spacing: 0.06em;
   border: 1px solid rgb(33, 150, 243);
@@ -804,9 +833,9 @@ body {
   padding-left: 22px;
   padding-right: 22px;
   font-family: var(--primary-font);
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  font-weight: 500;
+  line-height: 26px;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   cursor: pointer;
@@ -827,15 +856,16 @@ body {
 }
 
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
 }
 
 .portfolio-subtitle {
   font-size: 16px;
-  line-height: 1.88;
+  font-weight: 400;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -890,7 +920,8 @@ body {
   height: 100%;
   font-family: "Roboto";
   font-size: 18px;
-  line-height: 1.56;
+  font-weight: 400;
+  line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);

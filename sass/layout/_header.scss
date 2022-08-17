@@ -21,7 +21,7 @@
   margin-bottom: 25px;
 }
 
-.contact-mail {
+.contact__item__mail {
   @include font (14px, 500, 16px);
   // font-weight: 500;
   // font-size: 14px;
@@ -38,13 +38,13 @@
   }
 }
 
-.icon-mail {
+.contact__item__mail__icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
 }
 
-.contact-phone {
+.contact__item__phone {
   @include font (14px, 500, 16px);
   // font-weight: 500;
   // font-size: 14px;
@@ -59,7 +59,7 @@
   }
 }
 
-.icon-phone {
+.contact__item__phone__icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
@@ -79,7 +79,7 @@
   margin-right: 50px;
 }
 
-.contacts-list {
+.contacts__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
