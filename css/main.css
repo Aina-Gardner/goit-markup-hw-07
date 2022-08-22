@@ -82,6 +82,12 @@ body {
   padding-right: 15px;
 }
 
+.container-header {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 0px;
@@ -348,9 +354,6 @@ body {
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 
 .contact__item__mail {
@@ -373,18 +376,18 @@ body {
   fill: currentColor;
 }
 
-.contact__item__phone {
+.contact__item-phone {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contact__item__phone:hover, .contact__item__phone:focus, .contact__item__phone:active {
+.contact__item-phone:hover, .contact__item-phone:focus, .contact__item-phone:active {
   color: var(--accent-color);
 }
 
-.contact__item__phone__icon {
+.contact__item-phone-icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
@@ -393,7 +396,7 @@ body {
 .menu {
   display: flex;
   align-items: flex-start;
-  padding-right: 230px;
+  padding-right: 305px;
 }
 
 .logo {
@@ -408,6 +411,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .list-menu {
@@ -425,7 +430,7 @@ body {
   background-color: rgb(196, 196, 196);
 }
 
-.section__hero {
+.section__hero-title {
   color: #ffffff;
   font-size: 44px;
   font-weight: 900;
@@ -516,16 +521,16 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.our__team {
+.our-team {
   background: #f5f4fa;
   padding-bottom: 94px;
 }
 
-.our-team-item {
+.our-team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.our__team-title {
+.our-team__title {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -534,7 +539,7 @@ body {
   text-align: center;
 }
 
-.team-title {
+.our-team__title-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -556,14 +561,14 @@ body {
   margin-bottom: 16px;
 }
 
-.our-team-list {
+.our-team__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
 
-.team-card-wrapper {
+.our-team__card-wrapper {
   width: 270px;
   background-color: #ffffff;
   border-bottom: #ffffff;

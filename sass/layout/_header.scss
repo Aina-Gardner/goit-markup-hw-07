@@ -1,3 +1,4 @@
+
 .current::after {
   display: block;
   content: '';
@@ -16,9 +17,9 @@
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  // justify-content: center;
+  // margin-top: 24px;
+  // margin-bottom: 25px;
 }
 
 .contact__item__mail {
@@ -44,7 +45,7 @@
   fill: currentColor;
 }
 
-.contact__item__phone {
+.contact__item-phone {
   @include font (14px, 500, 16px);
   // font-weight: 500;
   // font-size: 14px;
@@ -59,7 +60,7 @@
   }
 }
 
-.contact__item__phone__icon {
+.contact__item-phone-icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
@@ -68,7 +69,7 @@
 .menu {
   display: flex;
   align-items: flex-start;
-  padding-right: 230px;
+  padding-right: 305px;
 }
 
 .logo {
@@ -83,6 +84,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .list-menu {
