@@ -75,11 +75,9 @@ body {
 }
 
 .container {
+  margin: 0 auto;
+  padding: 0 15px;
   width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .container-header {
@@ -90,7 +88,12 @@ body {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 0px;
+  padding-bottom: 94px;
+}
+
+.section2 {
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 
 .modal-btn {
@@ -104,7 +107,6 @@ body {
   color: #ffffff;
   letter-spacing: 0.06em;
   margin-top: 30px;
-  margin-bottom: 200px;
   border: 1px solid rgb(33, 150, 243);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -420,24 +422,33 @@ body {
   padding-bottom: 32px;
 }
 
-.section__hero {
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin: 0 auto;
   background: #2f303a;
   text-align: center;
-  display: column;
-  padding-top: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/bcg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1600px;
+  background-position: center;
   background-color: rgb(196, 196, 196);
 }
 
-.section__hero-title {
+.hero__title {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   color: #ffffff;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  align-items: center;
+  text-align: center;
 }
 
 .benefits__title {
@@ -489,7 +500,6 @@ body {
 .about__list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
   gap: 30px;
 }
 
@@ -642,10 +652,6 @@ body {
 .clients__item-link:hover .client-list-icon, .clients__item-link:focus .client-list-icon {
   border-color: #2196f3;
   fill: #2196f3;
-}
-
-.clients {
-  padding-bottom: 94px;
 }
 
 .address {
